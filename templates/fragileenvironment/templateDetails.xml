@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Fragile Environment</name>
+	<version>1.0.0</version>
+	<creationDate>09/06/11</creationDate>
+	<author>Lonex.com</author>
+	<authorEmail>sales@lonex.com</authorEmail>
+	<authorUrl>http://www.lonex.com</authorUrl>
+	<copyright>Lonex</copyright>
+	<license>This template is designed by Lonex.com and can be used for free, as long as you keep and do not modify our 3 links.</license>
+	<description>Fragile Environment template by Lonex</description>
+	<files>
+		<filename>params.ini</filename>
+		<filename>index.html</filename>
+		<filename>component.php</filename>
+		<filename>functions.php</filename>
+		<filename>index.php</filename>
+		<filename>styleloader.php</filename>
+		<filename>utils.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>css/green.css</filename>
+
+		<filename>html/index.html</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/pagination.php</filename>
+		<filename>html/mod_footer/default.php</filename>
+
+		<filename>images/index.html</filename>
+		<filename>images/bg_user_menu.gif</filename>
+		<filename>images/bkg_body_bot.gif</filename>
+		<filename>images/bkg_body_top.gif</filename>
+		<filename>images/bkg_but_l.gif</filename>
+		<filename>images/bkg_but_r.gif</filename>
+		<filename>images/bkg_leftheader.gif</filename>
+		<filename>images/bkg_leftmenu_bot.gif</filename>
+		<filename>images/bkg_leftmenu_mid.gif</filename>
+		<filename>images/bkg_leftmenu_top.gif</filename>
+		<filename>images/bkg_rightheader.gif</filename>
+		<filename>images/bkg_rightmenu_bot.gif</filename>
+		<filename>images/bkg_rightmenu_mid.gif</filename>
+		<filename>images/bkg_rightmenu_top.gif</filename>
+		<filename>images/bkg_search.gif</filename>
+		<filename>images/menu_li.gif</filename>
+		<filename>images/bkg_header.jpg</filename>
+		<filename>images/bkg_readmore.png</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	<params>
+		<param name="colorVariation" type="list" default="green" label="Color Variation" description="Color variation to use">
+			<option value="green">Green</option>
+		</param>
+	</params>
+</install>
+

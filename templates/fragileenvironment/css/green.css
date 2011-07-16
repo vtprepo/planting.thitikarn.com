@@ -1,0 +1,191 @@
+﻿/*****************************/
+/*** Core html setup stuff ***/
+/*****************************/
+.button, .inputbox { 
+	border: none;
+	background:#787878;
+	color:#e7e7e7;
+}
+.button:hover, .inputbox:hover { background:#929292; }
+
+a:link, a:visited {color: #8ad603;}
+a:hover, a:active, a:focus {color: #b4ff30;}
+
+body {background: #232323;}
+body, td, div, p {color: #c0c0c0;}
+
+/*****************************************/
+/*** Template specific layout elements ***/
+/*****************************************/
+#wrapper1 {background: url(../images/bkg_body_top.gif) top left repeat-x;}
+#wrapper2 {}
+#wrapper3 {background: #000 url(../images/bkg_body_bot.gif) top left repeat-x;}
+
+#header{background: url(../images/bkg_header.jpg) top left no-repeat;}
+
+#title {	color: #dcdcdc;}
+
+/**********************/
+/*** Top Navigation ***/
+/**********************/
+#topnavi {}
+#topnavi ul li {}
+#topnavi ul li a {background:url(../images/bkg_but_l.gif) top left no-repeat;}
+#topnavi ul li a span{color: #909090; background:url(../images/bkg_but_r.gif) top right no-repeat;}
+#topnavi ul li a:hover, #topnavi li#current a {background:url(../images/bkg_but_l.gif) bottom left no-repeat;}
+#topnavi ul li a:hover span, #topnavi li#current a span{color: #000; background:url(../images/bkg_but_r.gif) bottom right no-repeat;}
+
+/**********************/
+/*** User 4 (Search menu) ***/
+/**********************/
+#search {
+	background:url(../images/bkg_search.gif) top left no-repeat;
+}
+
+#search div.search .inputbox{
+	border: none;
+	background: transparent;
+	color:#838383;
+}
+
+/**********************/
+/*** Top (Newsflash) ***/
+/**********************/
+#header_text table.contentpaneopen,
+#header_text table.contentpaneopen td,
+#header_text table.contentpaneopen td p  {
+	color:#000;
+}
+
+#header_text table.contentpaneopen a {
+	text-decoration: underline;
+}
+
+/**********************/
+/*** Main Body ***/
+/**********************/
+#main{}
+
+/**********************/
+/*** Left Column ***/
+/**********************/
+#leftcol h3{
+	color: #fff;
+	background: url(../images/bkg_leftheader.gif) top left no-repeat; 
+}
+
+#leftcol div.module_menu div div, #leftcol div.module div div, #leftcol div.module_text div div{
+	background: transparent url(../images/bkg_leftmenu_top.gif) top left no-repeat; 
+}
+
+#leftcol div.module_menu div div div, #leftcol div.module div div div, #leftcol div.module_text div div div{
+	background: transparent url(../images/bkg_leftmenu_bot.gif) bottom left no-repeat; 
+}
+
+#leftcol div.module_menu div div div div, #leftcol div.module div div div div, #leftcol div.module_text div div div div {background: transparent;}
+
+#leftcol div.module_menu , #leftcol div.module, #leftcol div.moduletable, #leftcol div.module_text {
+	background: transparent url(../images/bkg_leftmenu_mid.gif) top left repeat-y; 
+} 
+
+#leftcol a:link, #leftcol a:visited {color:#8ad603;}
+#leftcol a:hover, #leftcol a:active {color:#b4ff30;}
+
+/**********************/
+/*** Right Column ***/
+/**********************/
+#rightcol h3{
+	color: #fff;
+	background: url(../images/bkg_rightheader.gif) top left no-repeat; 
+}
+
+#rightcol div.module_menu div div, #rightcol div.module div div, #rightcol div.module_text div div{
+	background: transparent url(../images/bkg_rightmenu_top.gif) top left no-repeat; 
+}
+
+#rightcol div.module_menu div div div, #rightcol div.module div div div, #rightcol div.module_text div div div{
+	background: transparent url(../images/bkg_rightmenu_bot.gif) bottom left no-repeat; 
+}
+
+#rightcol div.module_menu div div div div, #rightcol div.module div div div div, #rightcol div.module_text div div div div {background: transparent;}
+
+#rightcol div.module_menu , #rightcol div.module, #rightcol div.moduletable, #rightcol div.module_text {
+	background: transparent url(../images/bkg_rightmenu_mid.gif) top left repeat-y; 
+} 
+
+#rightcol a:link, #rightcol a:visited {color:#8ad603;}
+#rightcol a:hover, #rightcol a:active {color:#b4ff30;}
+
+/******************************************************************/
+/* Controls Link Icon appearance in side modules */
+/******************************************************************/
+#leftcol ul.menu li a,
+#leftcol ul.menu li ul li a,
+#rightcol ul.menu li a,
+#rightcol ul.menu li ul li a,
+#leftcol ul#mainlevel li a,
+#leftcol ul#mainlevel li ul li a,
+ul.mostread li a,
+ul.latestnews li a,
+.moduletable ul li a {
+	border-bottom: 1px solid #808080;
+}
+
+#leftcol ul.menu li a:hover,
+#leftcol ul.menu li#current a,
+#leftcol ul.menu li ul li a:hover,
+#rightcol ul.menu li a:hover,
+#rightcol ul.menu li#current a,
+#rightcol ul.menu li ul li a:hover,
+#leftcol ul#mainlevel li a:hover,
+#leftcol ul#mainlevel li a#active_menu,
+#leftcol ul#mainlevel li ul li a:hover,
+ul.mostread li a:hover,
+ul.latestnews li a:hover,
+.moduletable ul li a:hover {
+	color: #b4ff30;
+	background: #343533;
+	border-bottom: 1px solid #808080;
+}
+
+/**********************/
+/*** Main Content Menu ***/
+/**********************/
+.componentheading {color: #fff;}
+.contentheading {color: #c0c0c0;}
+.contentpaneopen h3  {color: #c0c0c0;}
+
+#pathway {color:#c0c0c0;}
+
+.small, .createdate, .modifydate {color:#a6bc7d;}
+
+a.readon, a.readon:hover, a.readon:visited{
+	background: url(../images/bkg_readmore.png) top left no-repeat;
+}
+
+/**************************/
+/*** Advertisement Menu ***/
+/**************************/
+
+/*******************/
+/***  Login Form  ***/
+/*******************/
+
+/*************/
+/***  Polls  ***/
+/*************/
+td.sectiontableheader {
+  border-right: 1px solid #232323;
+  color: #c0c0c0;
+  background: #4e4e4e;
+}
+
+/******************/
+/***  Copyright  ***/
+/******************/
+#copyright {
+	color:#fff;
+}
+
+#copyright a:link, #copyright a:active, #copyright a:visited {
+}
